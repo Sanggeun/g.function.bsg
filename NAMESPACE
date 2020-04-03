@@ -3,6 +3,7 @@
 export(Mean_CI)
 export(freq_fx)
 export(oddsratio_CI)
+export(order_character)
 export(round_new)
 export(trim)
 export(underbar_change)
