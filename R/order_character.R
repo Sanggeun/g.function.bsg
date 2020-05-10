@@ -20,10 +20,10 @@ order_character <- function(vec_cha, vec_or) {
     j = 0
     while (j <= length(vec_cha)) {
       j = j + 1
-      if (is.na(k_s[j])) {
+      if (is.na(vec_cha[j])) {
         next
       }
-      if (k_s[j] == i){
+      if (vec_cha[j] == i){
         p = c(p, j)
       }
     }
